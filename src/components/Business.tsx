@@ -5,7 +5,7 @@ import Button from "./Button";
 const FeatureCard = ({ icon, title, content, index }: any) => (
   <div
     // eslint-disable-next-line prettier/prettier
-    className={`flex flex-row p-6 rounded-[20px] ${index !== features.length - 1 ? "mb-6" : "mb-0"} feature-card`}
+    className={`flex flex-row p-6 rounded-[20px] ${index !== features.length - 1 ? "mb-6" : "mb-0"} feature-card w-full`}
   >
     <div
       className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-dimBlue`}

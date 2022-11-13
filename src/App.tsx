@@ -1,11 +1,22 @@
-import React from 'react'
-import styles from './style'
+import React from "react";
+import styles from "./style";
 
-import { Navbar, Hero, Stats, Business, Billing, CardDeal, Testimonials, Clients, CTA, Footer } from './components'
+import {
+  Navbar,
+  Hero,
+  Stats,
+  Business,
+  Billing,
+  CardDeal,
+  Testimonials,
+  Clients,
+  CTA,
+  Footer,
+} from "./components";
 
 function App() {
   return (
-    <div className='bg-primary w-full overflow-hidden'>
+    <div className="bg-primary w-full overflow-hidden">
       {/* Navbar */}
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
@@ -33,7 +44,7 @@ function App() {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
